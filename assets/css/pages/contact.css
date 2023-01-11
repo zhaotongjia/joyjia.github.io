@@ -32,7 +32,9 @@
 
 .contact {
   background-color: var(--jet);
-  padding-block-start: calc(var(--section-padding) + 60px);
+  /* padding-block-start: calc(var(--section-padding) + 60px); */
+  padding-top: 25vh;
+  padding-bottom: 8vh;
 }
 
 .contact .container {
@@ -66,10 +68,13 @@ textarea {
 }
 
 
+
+
 .contact-list .contact-item {
   display: flex;
   align-items: flex-start;
   gap: 15px;
+  padding-left: 10vw;
 }
 
 .contact-list .contact-item:not(:last-child) { margin-block-end: 35px; }
@@ -116,6 +121,10 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+
+  .contactsection {
+    --section-padding: 400px;
   }
 
 }
